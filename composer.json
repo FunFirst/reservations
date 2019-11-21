@@ -21,5 +21,14 @@
         "ps-4": {
             "FunFirst\\Reservations\\Tests": "tests"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FunFirst\\Reservations\\ReservationsServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
     }
 }
