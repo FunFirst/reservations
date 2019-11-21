@@ -2,6 +2,7 @@
 
 namespace FunFirst\Reservations\Tests;
 
+use FunFirst\Reservations\Reservation;
 use PHPUnit\Framework\TestCase;
 
 class ReservationTest extends TestCase
