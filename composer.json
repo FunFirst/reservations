@@ -1,0 +1,12 @@
+{
+    "name": "funfirst/reservations",
+    "description": "Package used for reservation system.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jakub Gause",
+            "email": "gause.jakub@gmail.com"
+        }
+    ],
+    "require": {}
+}
