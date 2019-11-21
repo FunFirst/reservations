@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="FunFirst Reservations Test Suite" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.005606">
+    <testsuite name="FunFirst\Reservations\Tests\ReservationTest" file="/Users/kenny/code/reservations-package/tests/Reservations/ReservationTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.005606">
+      <testcase name="example_test" class="FunFirst\Reservations\Tests\ReservationTest" classname="FunFirst.Reservations.Tests.ReservationTest" file="/Users/kenny/code/reservations-package/tests/Reservations/ReservationTest.php" line="10" assertions="1" time="0.005606"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

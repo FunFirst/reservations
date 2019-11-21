@@ -8,5 +8,18 @@
             "email": "gause.jakub@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "ps-4": {
+            "FunFirst\\Reservations\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "ps-4": {
+            "FunFirst\\Reservations\\Tests": "tests"
+        }
+    }
 }
