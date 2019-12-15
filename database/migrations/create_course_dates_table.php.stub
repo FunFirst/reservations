@@ -16,12 +16,13 @@ class CreateCourseDatesTable extends Migration
         Schema::create('course_dates', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->bigInteger('course_id');
-            $table->date('from_date');
-            $table->date('to_date');
+            $table->datetime('from_date');
+            $table->datetime('to_date');
             $table->string('venue');
             $table->unsignedInteger('limit');
             $table->string('lecturer')->nullable();
             $table->text('description')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }
